@@ -1,0 +1,25 @@
+{
+  "name": "zazu-fusejs",
+  "version": "1.0.0",
+  "description": "Zazu plugin that searching my own draft",
+  "blocks": {
+    "input": [
+      {
+        "id": "fusejs",
+        "type": "PrefixScript",
+        "prefix": "s",
+        "space": true,
+        "args": "Required",
+        "script": "src/search.js",
+        "connections": ["SearchDraft"]
+      }
+    ],
+    "output": [
+      {
+        "id": "SearchDraft",
+        "type": "OpenInBrowser",
+        "url": "{value}"
+      }
+    ]
+  }
+}
