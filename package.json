@@ -16,6 +16,7 @@
     "mocha": "^2.5.3"
   },
   "dependencies": {
-    "fuse.js": "^3.4.5"
+    "fuse.js": "^3.4.5",
+    "request": "^2.88.0"
   }
 }
